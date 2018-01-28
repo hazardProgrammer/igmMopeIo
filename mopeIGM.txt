@@ -1,5 +1,6 @@
 Let's make a game!
     name:Mope.io clicker
+    author:Hazard
     desc:Work you way up the Mope.io leaderboard by... clicking food? Oh well, if it works...
     created:28/1/2018
     updated:28/1/2018
@@ -28,7 +29,7 @@ Buttons
     *blackBerry
         name:Black Berry
         desc:Gain 20-50 XP per click!
-        on click:yield (random(20,, 50)) XP
+        on click:yield (random(20, 50)) XP
         on click:anim icon wobble
         no text
         req: 200 XP
@@ -52,4 +53,3 @@ Resources
         name:XP
         desc:This is the amount of XP you have.
         show earned
-        
