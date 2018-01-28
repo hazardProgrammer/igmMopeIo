@@ -46,3 +46,10 @@ Buttons
         on click:anim icon wobble
         no text
         req:2100 XP
+
+Resources
+    *XP
+        name:XP
+        desc:This is the amount of XP you have.
+        show earned
+        
