@@ -1,48 +1,49 @@
 Let's make a game!
-    name: Mope.io clicker
-    desc: Work you way up the Mope.io leaderboard by... clicking food? Oh well, if it works...
-    created: 28/1/2018
-    updated: 28/1/2018
-    version: 0
+    name: Mope.ioclicker
+    author:Hazard
+    desc:Work you way up the Mope.io leaderboard by... clicking food? Oh well, if it works...
+    created:28/1/2018
+    updated:28/1/2018
+    version:0
 
 Settings
-    building cost refund: 75%
+    building cost refund:75%
 
 Layout
     use default
 
 Buttons
     *redBerry
-        name: Berry
-        desc: Gain 1.5 XP per click!
-        on click: yield 1.5 XP
-        on click: anim icon wobble
+        name:Berry
+        desc:Gain 1.5 XP per click!
+        on click:yield 1.5 XP
+        on click:anim icon wobble
         no text
     *carrot
-        name: Carrot
-        desc: Gain 20-40 XP per click!
-        on click: yield (random(20, 40)) XP
-        on click: anim icon wobble
+        name:Carrot
+        desc:Gain 20-40 XP per click!
+        on click:yield (random(20, 40)) XP
+        on click:anim icon wobble
         no text
-        req: 60 XP
+        req:60 XP
     *blackBerry
-        name: Black Berry
-        desc: Gain 20-50 XP per click!
-        on click: yield (random(20,, 50)) XP
-        on click: anim icon wobble
+        name:Black Berry
+        desc:Gain 20-50 XP per click!
+        on click:yield (random(20,, 50)) XP
+        on click:anim icon wobble
         no text
         req: 200 XP
     *lilypad
-        name: Lilypad
-        desc: Gain 75 XP per click!
-        on click: yield 75 XP
-        on click: anim icon wobble
+        name:Lilypad
+        desc:Gain 75 XP per click!
+        on click:yield 75 XP
+        on click:anim icon wobble
         no text
-        req: 1000 XP
+        req:1000 XP
     *redMushroom
-        name: Red Mushroom
-        desc: Gain 150 XP per click!
-        on click: yield 150 XP
-        on click: anim icon wobble
+        name:Red Mushroom
+        desc:Gain 150 XP per click!
+        on click:yield 150 XP
+        on click:anim icon wobble
         no text
-        req: 2100 XP
+        req:2100 XP
