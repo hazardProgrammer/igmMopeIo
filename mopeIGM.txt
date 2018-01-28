@@ -1,6 +1,5 @@
 Let's make a game!
     name: Mope.io clicker
-    author: Hazard
     desc: Work you way up the Mope.io leaderboard by... clicking food? Oh well, if it works...
     created: 28/1/2018
     updated: 28/1/2018
