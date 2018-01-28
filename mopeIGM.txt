@@ -18,6 +18,7 @@ Buttons
         on click:yield 1.5 XP
         on click:anim icon wobble
         no text
+        icon:https://i.redd.it/a6cygexblia01.png
     *carrot
         name:Carrot
         desc:Gain 20-40 XP per click!
