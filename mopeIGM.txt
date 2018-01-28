@@ -31,7 +31,7 @@ Buttons
         on click:yield (random(20, 50)) XP
         on click:anim icon wobble
         no text
-        req: 200 XP
+        req:200 XP
     *lilypad
         name:Lilypad
         desc:Gain 75 XP per click!
